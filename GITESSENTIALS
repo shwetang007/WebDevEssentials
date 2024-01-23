@@ -1,0 +1,155 @@
+# The video starts with open source control management(SCM)
+
+/_as i already have an idea what is version control:a system that tracks and manages changes to software code. It keeps a record of every change, including the author, timestamp, and other details_/
+
+--What is even a SCM or git?
+->Source Control Management (SCM) is a system that manages and tracks changes to a codebase, enabling collaboration among multiple developers and providing a version history of the software.
+
+Now that we know what is scm why was there a need of storage system like this?
+->Loss of Code: Without versioning, accidental changes or deletions could lead to irreversible data loss.
+Collaboration Issues: Difficulty in managing collaborative projects, leading to conflicting changes.
+Code Confusion: Lack of a version history can result in confusion about the state of the codebase.
+Quality Assurance Challenges: Hard to track changes and identify when and how bugs were introduced.
+
+$ git config --global user.name "Gucci ki kameez"
+
+What is this above? what does this evven mean? what does the components refere to?
+
+git config: The command for configuring Git settings.
+--global: Specifies that the configuration should apply globally to all repositories.
+user.name: The specific Git configuration option for setting the user's name.
+"Gucci Ki Kameez": The value being assigned to the user.name configuration.
+
+Clarity in Attribution: Clearly attributes code changes to a specific user.
+Professionalism: Adds a professional touch by including author information in commits.
+Accountability: Enhances accountability by associating changes with identifiable contributors.
+Consistency: Maintains a consistent user identity across various Git repositories.
+
+# you also need to declare your default email like global user.email abcd@gmail.com
+
+$ git config --global init.default branch main
+
+git config: The command for configuring Git settings.
+--global: Specifies that the configuration should apply globally to all repositories.
+init.defaultBranch: The specific Git configuration option for setting the default branch name.
+main: The value being assigned to the init.defaultBranch configuration.
+
+How does it even standardise thing?
+
+Run the Command: Execute the provided command in the terminal.
+Verify Configuration: Confirm the change by checking the global Git configuration.
+Initialize New Repositories: New repositories will now default to the specified branch name.
+Update Existing Repositories: For existing repositories, manually update the default branch name.
+
+$ git add index.htm
+
+Need for Doing This:
+Staging Changes: Preparing specific files or changes for the next commit.
+Selective Commit: Choosing which changes to include in the next commit.
+Version Control: Updating the version control system with modified files.
+Commit Preparation: Facilitating the process of committing changes.
+
+git add: The command for staging changes in Git.
+index.htm: The specific file (or files) being staged in this instance.
+
+NOW THE NEXT QUESTION I SAW WAS .gitignore why even it is required.what does it even do?
+
+->The .gitignore file is used to specify intentionally untracked files and directories that Git should ignore when managing a project.
+
+.gitignore: The filename indicating Git should interpret the file for exclusion rules.
+Line in File: Each line in the .gitignore file specifies a file or directory pattern to ignore.
+
+i you wanna see that the specific fiile/set of files are ignored use this:
+-> git status
+if you want to add all file use :
+-> git add --all/A/.
+
+if ypu haven't committed the files are in a state of"STAGING"
+i.e they are stuck .
+
+$ git commit -m "first commit committing all files to the repository"
+
+Initial Project Snapshot: Creating the first commit to capture the initial state of the project.
+Logging Progress: Documenting progress by committing changes at significant milestones.
+Versioning Code: Implementing version control for tracking changes to codebase.
+Providing Commit Messages: Adding informative commit messages for clarity.
+
+Why to Use It:
+Record Changes: Captures changes made to files in the project.
+Track Project History: Establishes a chronological history of project evolution.
+Collaboration: Enables collaboration by providing a shared history.
+Rollback Capability: Facilitates the ability to roll back to specific points in time.
+
+git commit: The command for recording changes to the repository.
+-m: The flag indicating that the commit message will be provided inline.
+"first commit committing all files to the repository": The commit message explaining the nature of the commit.
+
+OKAY SO THIS IS IMPORTANT LIKE IF YOU EVER MODIFY THE CHANGES IN THE FILES OF YOURS USE git status TO SEE IT IT'LL SHOW MODIFIED.
+
+AGAIN TO SEE WHAT CHANGES YOU'VE MADE USE:git diff
+
+$ git restore staged index.htm
+
+Need for Doing This:
+Unstage Changes: To unstage specific changes before committing.
+Correction of Staging Mistake: Rectifying accidental staging of files.
+Selective Staging: Reversing the staging of specific files while keeping other changes.
+Review Changes Before Commit: Undoing the staging of a file for further review.
+
+Need for Doing This:
+Unstage Changes: To unstage specific changes before committing.
+Correction of Staging Mistake: Rectifying accidental staging of files.
+Selective Staging: Reversing the staging of specific files while keeping other changes.
+Review Changes Before Commit: Undoing the staging of a file for further review.
+
+IF YOU'VE DELETED A FILE SPECIFICALLY BY ACCIDENT THERE IS ALSO A WAY TO RESTORE IT (IT ONLY WORKS IF YOU'VE PASSED THE STAGED LIMIT BY ADDING ALL OF THE FILES/ SPECIFICALLY THAT FILE)
+
+git restore "file name"
+
+if you want to see what thing you've committed over time
+use : git log
+if you wanna see it detailed use --oneline
+
+$ git rebase -i --root
+
+Need for Doing This:
+Rewriting Initial Commit: To modify or reorder the first commit in the repository.
+Squashing Commits: Combine multiple commits into a single commit for clarity.
+Splitting Commits: Divide a large initial commit into smaller, more focused commits.
+Changing Commit Order: Rearrange the order of commits to improve the project's commit history.
+
+Introduction of Git Rebase: Git rebase was introduced for rewriting commit history.
+Interactive Rebase: The -i flag added the ability to interactively rebase.
+Handling the Root Commit: The --root option extended rebase to include the initial commit.
+Community Adoption: Developers began using interactive rebase for more granular control.
+
+Other Options:
+git commit --amend: Amend the last commit to make changes to the initial commit.
+git reset: Reset the branch to an earlier commit, discarding subsequent changes.
+git cherry-pick: Apply specific commits from one branch to another.
+Creating a New Initial Commit: Create a new branch and initial commit, abandoning the old history.
+
+git rebase: The command for rewriting commit history.
+-i: The flag for interactive mode during rebase.
+--root: The option indicating that the root commit should be included in the rebase.
+
+What are branches ?
+
+In Git, branches are a crucial concept that allows developers to work on different features, bug fixes, or improvements simultaneously without interfering with each other's code. A branch in Git is essentially a lightweight movable pointer to a commit. When you create a new branch, it points to the commit you are currently on, and any new commits are added to that branch.
+
+how to create new branch name:
+git branch newbranchname
+or
+git switch -c 'branchname'
+
+you can see how many branches you have using : git branch
+
+git switch branchname (will switch branches)
+
+if youre done with the branch youu can delete it:
+git branch -d branchname
+
+THE BRANCHES ARE EFFECITVELY USED WHEN YOU'VE TO FIX BUGS/DO ANY KIND OF CHANGES IN THE FILES .
+
+TO COMMIT ANY CHANGES TO A NEW BRANCH USE :
+git commit -a -m"NEW CHANGE"
