@@ -153,3 +153,169 @@ THE BRANCHES ARE EFFECITVELY USED WHEN YOU'VE TO FIX BUGS/DO ANY KIND OF CHANGES
 
 TO COMMIT ANY CHANGES TO A NEW BRANCH USE :
 git commit -a -m"NEW CHANGE"
+
+GITHUB:
+
+git remote add origin https://github.com/yorgitid/reopname
+
+git branch -M main
+
+git push-u origin main
+
+Why to Use It:
+Remote Association: Establish a connection between the local repository and a remote GitHub repository.
+Default Branch Name Change: Adopt an inclusive default branch naming convention (e.g., main instead of master).
+Upstream Branch Set-up: Set up the upstream branch for easy tracking of changes.
+Synchronization with GitHub: Ensure that local and remote repositories are synchronized.
+
+How to Use It:
+Remote Addition: Use git remote add origin <repository_url> to add a remote.
+Branch Renaming: Use git branch -M main to rename the default branch to main.
+Push with -u Flag: Use git push -u origin main to push changes and set the upstream branch.
+
+What Each Word in the Line Means:
+git remote add origin: Command to add a remote named "origin" with a specified repository URL.
+https://github.com/kevstrat/KevinCookieCompany.com.git: The GitHub repository URL.
+git branch -M main: Command to rename the current branch to main.
+git push -u origin main: Command to push the local main branch to the remote repository and set it as the upstream branch.
+
+AS WE GO DEEP INTO THE GITHUB SECTION WE GET TO KOW THE TABS OF THE GITHUB ESSENTIALS HERE THEY ARE:
+
+### 1. **Code:**
+
+- **Repositories:**
+  - Hosts project files, including source code, documentation, and assets.
+- **Commits:**
+  - Snapshot of changes made to files in the repository.
+- **Branches:**
+  - Independent lines of development for features, bug fixes, etc.
+- **Tags:**
+  - Named pointers to specific commits for versioning.
+
+### 2. **Issues:**
+
+- **Issue Tracker:**
+  - Tracks tasks, enhancements, bugs, and other kinds of questions.
+- **Labels:**
+  - Categorizes and organizes issues.
+- **Milestones:**
+  - Groups related issues to achieve a specific goal.
+- **Assignees:**
+  - Designates individuals responsible for addressing specific issues.
+
+### 3. **Pull Requests:**
+
+- **Branch Integration:**
+  - Propose changes made in a branch to be merged into another.
+- **Code Review:**
+  - Facilitates collaborative code review by peers.
+- **Status Checks:**
+  - Automated checks to ensure proposed changes meet criteria.
+- **Merge Options:**
+  - Decide when and how to merge changes into the target branch.
+
+### 4. **Actions:**
+
+- **Workflow Automation:**
+  - Define custom workflows for continuous integration and deployment.
+- **Event Triggers:**
+  - Execute actions in response to specific events, like pushes or pull requests.
+- **Artifact Storage:**
+  - Store and retrieve build artifacts or other outputs.
+
+### 5. **Security:**
+
+- **Code Scanning:**
+  - Identifies vulnerabilities in the codebase.
+- **Dependency Graph:**
+  - Visualizes dependencies and their versions.
+- **Secrets:**
+  - Safely store and manage encrypted secrets.
+- **Security Advisories:**
+  - Displays security advisories for dependencies.
+
+### 6. **Insights:**
+
+- **Analytics:**
+  - Provides statistics on code contributions, traffic, and more.
+- **Contributors:**
+  - Lists individuals contributing to the repository.
+- **Community:**
+  - Metrics on the community's engagement with the project.
+
+### 7. **Projects:**
+
+- **Task Boards:**
+  - Organizes and prioritizes work using customizable boards.
+- **Automated Workflows:**
+  - Automatically moves cards between columns based on defined rules.
+- **Collaboration:**
+  - Enhances team collaboration and project management.
+
+### 8. **Wiki:**
+
+- **Documentation:**
+  - Collaboratively edit and publish documentation for the repository.
+- **Markdown Support:**
+  - Write content using Markdown syntax.
+- **Versioned Pages:**
+  - View and compare different versions of wiki pages.
+
+### 9. **Settings:**
+
+- **Repository Settings:**
+  - Configure repository-specific settings.
+- **Collaborator Management:**
+  - Control access and permissions for contributors.
+- **Webhooks:**
+  - Integrate with external services by configuring webhooks.
+
+### 10. **Network:**
+
+- **Forks:**
+  - Create a copy of a repository to contribute without affecting the original.
+- **Stars:**
+  - Mark repositories as favorites for easy access.
+- **Followers:**
+  - Keep track of users whose activity you're interested in.
+
+### 11. **Pull Requests:**
+
+- **Branch Integration:**
+  - Propose changes made in a branch to be merged into another.
+- **Code Review:**
+  - Facilitates collaborative code review by peers.
+- **Status Checks:**
+  - Automated checks to ensure proposed changes meet criteria.
+- **Merge Options:**
+  - Decide when and how to merge changes into the target branch.
+
+### 12. **Releases:**
+
+- **Version Tagging:**
+  - Group together a set of features or bug fixes and create a release.
+- **Changelog Generation:**
+  - Automatically generate changelog entries based on commit history.
+- **Asset Attachments:**
+  - Attach binaries, installers, or other assets to a release.
+
+### 13. **Environment:**
+
+- **Deployment Environments:**
+  - Define deployment environments for your application.
+- **Status Checks:**
+  - Monitor the status of deployments directly from GitHub.
+  - **Rollback:**
+  - Revert to a previous deployment state if needed.
+
+### 14. **Marketplace:**
+
+- **GitHub Apps:**
+  - Install third-party apps to extend GitHub's functionality.
+- **Actions and Workflows:**
+  - Discover and share workflows and actions created by the community.
+  - **Integrations:**
+  - Explore integrations with other tools and services.
+
+These are just some of the many features available on GitHub, each contributing to a robust collaborative development environment.
+
