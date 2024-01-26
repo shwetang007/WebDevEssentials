@@ -2,7 +2,7 @@
 In This Repository about how SHWETANG learned and Had INDEPTH knowledge of HTML,CSS.JAVA SCRIPT AND  GIT. 
 How The things work how to initially work on  things ,having a deep analysis of things as well as the ways how the impactful learning can be achieved.
 
-PLEASE  CHANGE TO  DIFFRENT BRANCHES TO  ACCESS DIFFRENT CONTENTS OF THE REPOSITORY.
+KINDLY TRANSITION TO DISTINCT BRANCHES IN ORDER TO ACCESS VARIED CONTENTS WITHIN THE REPOSITORY.
 
 In-depth analysis is instrumental in gaining a comprehensive understanding of complex situations, data, and problems. It involves a thorough examination of relevant information, often uncovering hidden patterns and insights that might go unnoticed with a superficial approach. Whether in business, research, or personal endeavors, this level of analysis empowers decision-makers with valuable knowledge to make informed choices, solve intricate problems, and predict future trends. It serves as the foundation for data-driven decision-making, scientific discoveries, and improvements in various domains, ultimately leading to more effective strategies, better outcomes, and a deeper appreciation of the intricacies of the subject under examination.
 
