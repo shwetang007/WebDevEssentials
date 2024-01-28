@@ -27,5 +27,5 @@ CSS (Style and Presentation):
 -> Key Styles: Selectors, properties, and values govern the appearance of HTML elements, enabling meticulous control for visually appealing layouts.
 -> Layout and Positioning: CSS facilitates responsive and organized layouts, incorporating techniques like flexbox and grid for optimal presentation across diverse screen sizes and devices.
 
-PLEASE GO THOUGH THE #INDEPTH.TXT FILE IN THE REPOSITORY FOR  A BETTER UNDERSTANDING OF ALL THE FILES. 
+PLEASE GO THOUGH THE # INDEPTH.TXT FILE IN THE REPOSITORY FOR  A BETTER UNDERSTANDING OF ALL THE FILES. 
  
