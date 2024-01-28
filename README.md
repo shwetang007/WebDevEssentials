@@ -1,5 +1,5 @@
 # WebDevEssentials
-In This Repository about how SHWETANG learned and Had INDEPTH KNOWLEDGE OF GITAND  GITHUB. 
+In This Repository about how SHWETANG learned and Had INDEPTH KNOWLEDGE OF GIT AND  GITHUB. 
 How The things work how to initially work on  things ,having a deep analysis of things as well as the ways how the impactful learning can be achieved.
 
 GitHub is basically A time Machine and git is  the inspiration for it's working
