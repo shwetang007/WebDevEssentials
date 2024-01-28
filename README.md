@@ -1,22 +1,15 @@
 # WebDevEssentials
-In This Repository about how SHWETANG learned and Had INDEPTH knowledge of HTML,CSS.JAVA SCRIPT AND  GIT. 
+In This Repository about how SHWETANG learned and Had INDEPTH KNOWLEDGE OF GITAND  GITHUB. 
 How The things work how to initially work on  things ,having a deep analysis of things as well as the ways how the impactful learning can be achieved.
 
+A meticulous exploration is imperative for acquiring a profound comprehension of intricate scenarios, datasets, and challenges within the context of version control systems like Git and collaborative platforms such as GitHub. This approach entails a comprehensive examination of pertinent information, often revealing concealed patterns and insights that may elude a cursory inspection. Whether applied to software development, collaborative projects, or personal repositories, this thorough analysis equips developers and contributors with invaluable insights to make well-informed decisions, resolve complex issues, and anticipate future developments. It establishes the bedrock for effective version control, streamlined collaboration, and continual improvement in various development domains. Ultimately, it fosters the implementation of robust strategies, superior project outcomes, and a heightened understanding of the nuances inherent in the version control and collaboration processes.
 
-In-depth analysis is instrumental in gaining a comprehensive understanding of complex situations, data, and problems. It involves a thorough examination of relevant information, often uncovering hidden patterns and insights that might go unnoticed with a superficial approach. Whether in business, research, or personal endeavors, this level of analysis empowers decision-makers with valuable knowledge to make informed choices, solve intricate problems, and predict future trends. It serves as the foundation for data-driven decision-making, scientific discoveries, and improvements in various domains, ultimately leading to more effective strategies, better outcomes, and a deeper appreciation of the intricacies of the subject under examination.
-
-Now, Obviously to Learn the Essentials of the Front-end Web development i Used Sources.
+Now, Obviously to Learn the ESSENTIALS of  Git&Github I Used Sources.
 Here's The Address of the Resources i Used:
-
-HTML:
-https://youtu.be/qz0aGYrrlhU?si=Yr5iyVtci0vhuo6l   
 
 Foundational understanding and skillset for creating, maintaining, and optimizing websites and web applications. Here are the key objectives and goals associated with web development 
 
 GIT & GITHUB:
 https://www.youtube.com/watch?v=tRZGeaHPoaw&t=1534s
 
-JAVASCRIPT(BASICS):
-https://www.youtube.com/watch?v=PkZNo7MFNFg&t=3360s
-
- 
+These Things definetely taught me how to gain a Better grip on version control
