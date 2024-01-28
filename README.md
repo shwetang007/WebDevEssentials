@@ -1,4 +1,4 @@
-# GIT&GITHUBEssentials
+# GIT&GITHUB Essentials
 In This Repository about how SHWETANG learned and Had INDEPTH KNOWLEDGE OF GIT AND  GITHUB. 
 How The things work how to initially work on  things ,having a deep analysis of things as well as the ways how the impactful learning can be achieved.
 
