@@ -4,13 +4,13 @@
 
 --What is even a SCM or git?
 ->Source Control Management (SCM) is a system that manages and tracks changes to a codebase, enabling collaboration among multiple developers and providing a version history of the software.
-
+...
 Now that we know what is scm why was there a need of storage system like this?
 ->Loss of Code: Without versioning, accidental changes or deletions could lead to irreversible data loss.
 Collaboration Issues: Difficulty in managing collaborative projects, leading to conflicting changes.
 Code Confusion: Lack of a version history can result in confusion about the state of the codebase.
 Quality Assurance Challenges: Hard to track changes and identify when and how bugs were introduced.
-
+...
 $ git config --global user.name "Gucci ki kameez"
 
 What is this above? what does this evven mean? what does the components refere to?
