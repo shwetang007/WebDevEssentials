@@ -1,4 +1,4 @@
-# WebDevEssentials
+# JavaScriptEssentials
 This Repository  is about how SHWETANG learned and Had INDEPTH knowledge of JAVA SCRIPT. How The things work how to initially work on things ,having a deep analysis of things as well as the ways how the impactful learning can be achieved.
 
 KINDLY TRANSITION TO DISTINCT BRANCHES IN ORDER TO ACCESS VARIED CONTENTS WITHIN THE REPOSITORY.
